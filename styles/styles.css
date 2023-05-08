@@ -1,0 +1,198 @@
+	*{
+		margin: 0;
+		font-family: 'Mukta', sans-serif;
+	}
+	body{
+		background-color: #fbfbfb;
+	}
+	.navbar-brand img {
+		height: 50px;
+		padding-right: 5px;
+	}
+	.banner{
+		background-image: url('ruta-a-la-imagen.jpg');
+		background-size: cover;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner h1 {
+		color: #ffffff;
+		font-size: 4rem;
+		font-weight: bold;
+		text-shadow: 2px 2px #000000;
+	}
+	.section-heading {
+		padding: 50px 0;
+		text-align: center;
+	}
+	.section-heading i {
+		font-size: 4rem;
+		margin-bottom: 30px;
+		color: #e74c3c;
+	}
+	.section-heading h2 {
+		font-size: 3rem;
+		font-weight: bold;
+		margin-bottom: 30px;
+		color: #2c3e50;
+	}
+	.section-heading p {
+		font-size: 1.5rem;
+		margin-bottom: 50px;
+		color: #95a5a6;
+	}
+	.contact-info {
+		background-color: #f8f9fa;
+		padding: 50px 0;
+		text-align: center;
+	}
+	.contact-info i {
+		font-size: 3rem;
+		margin-bottom: 20px;
+		color: #2c3e50;
+	}
+	.contact-info h3 {
+		font-size: 2rem;
+		margin-bottom: 20px;
+		font-weight: bold;
+		color: #2c3e50;
+	}
+	.contact-info p {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+		color: #95a5a6;
+	}
+	.social-icons i {
+		font-size: 2rem;
+		margin: 0 10px;
+		color: #2c3e50;
+		transition: all 0.3s ease;
+	}
+	.social-icons i:hover {
+		transform: scale(1.2);
+		color: #e74c3c;
+		cursor: pointer;
+	}
+	footer {
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		padding: 20px;
+	}
+	.footer-left {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.footer-right {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		color: red;
+	}
+	.footer-right i{
+		color: #56bf2a;
+	}
+
+	/* SECCION DE EXPOSICIÓN DE TRABAJO */
+
+	.nuestro-trabajo__container {
+		padding: 30px 20px;
+		border-radius: 5px;
+		transition: background-color 0.3s ease-in-out;
+	}
+
+	.nuestro-trabajo__container:hover{
+		background-color: #56bf2a;
+		color: #ffffff;
+	}
+
+	.bg-green {
+		background-color: #56bf2a;
+		color: #ffffff;
+	}
+	.icon-rounded{
+		background: #fff;
+		color: #56bf2a;
+		border-radius: 50px;
+	}
+
+	.nuestro-trabajo__container:hover i {
+		background: #fff;
+		color: #56bf2a;
+		border-radius: 50px;
+	}
+
+	.nuestro-trabajo__container i{
+		padding: 20px;
+	}
+
+	.info-text{
+		font-weight: 600;
+		color: #56bf2a;
+	}
+	.content-about-us h2{
+		font-weight: 600;
+	}
+
+/* Productos-vista */
+	.align-text-center{
+		text-align: center;
+	}
+
+	#titulo h5{
+		color: #56BF2A;
+	}
+
+	#titulo{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#cardProducts{
+		background-color: #FFFFFF;
+
+	}
+
+	#cardProducts {
+		border-radius: 8px;
+		height: 100%;
+		width: 100%;
+		-webkit-box-shadow: 4px 0px 26px 0px rgba(133,128,133,1);
+		-moz-box-shadow: 4px 0px 26px 0px rgba(133,128,133,1);
+		box-shadow: 4px 0px 26px 0px rgba(133,128,133,1);
+	}
+	.card-image img{
+		border-radius: 50%;
+		height: 130px;
+		padding-top: 20px;
+
+
+	}
+
+	.card-tittle{
+		font-size: 30px;
+		font-weight: bold;
+		padding: 20px;
+	}
+
+	.card-text{
+		font-size: 20px;
+		padding: 10px
+	}
+
+	.card-button{
+		padding: 15px;
+	}
+
+	.container{
+		padding: 1%;
+	}
+
+
+
+	
