@@ -30,7 +30,7 @@
     border-radius: 0;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 80%;
     transform: translate(-50%,-50%);
 }
 
@@ -75,7 +75,7 @@ footer {
     color: #fff;
     text-align: center;
    margin-top: 700px;
-   margin-bottom: 20px;
+   margin-bottom: 0;
    padding: 40px;
 }
 
